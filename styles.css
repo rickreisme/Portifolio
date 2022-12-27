@@ -8,7 +8,7 @@ body{
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
 }
-#header{
+.header{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -17,6 +17,9 @@ body{
     color: white;
     margin-top: 40px;
     margin-top: 40px;
+}
+.header:hover{
+    font-size: 40px;
 }
 #menu ul{
     list-style-type: none;
@@ -77,7 +80,6 @@ p.gray b{
 }
 #headerImg img{
     width: 100%;
-    
 }
 .headerLogo{
     text-align: center;
@@ -114,8 +116,20 @@ h1.black{
 .textCenter{
     text-align: center;
 }
+#tJapa{
+    background-color: rgb(41, 42, 41);
+    padding: 15px;
+}
+#tCurr{
+    background-color: rgb(41, 42, 41);
+    padding: 15px;
+}
+#tVending{
+    background-color: rgb(41, 42, 41);
+    padding: 15px;
+}
 a:hover.projects{
-    color: green;
+    color: rgb(4, 196, 4);
 }
 a.projects{
     font-family: Poppins;
@@ -124,7 +138,7 @@ a.projects{
     color: rgb(138, 138, 138);
 }
 a:hover.servics{
-    color: green;
+    color: rgb(4, 196, 4);
 }
 #services .textCenter h3{
     font-family: Poppins;
@@ -240,4 +254,10 @@ li {
 }
 a:hover.buttonCta{
     color: rgb(75, 224, 6);
+}
+#bann{
+    width: 100%;
+}
+.rodape h2{
+    text-align: center;
 }
