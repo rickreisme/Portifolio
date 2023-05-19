@@ -1,23 +1,24 @@
 body{
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 5%;
+    margin-right: 5%;
     background-color: black;
 }
 .container{
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
 }
-#header{
+.header{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
-    line-height: 42px;
+    font-size: 25px;
+    line-height: 40px;
     color: white;
     margin-top: 40px;
     margin-top: 40px;
 }
+
 #menu ul{
     list-style-type: none;
     margin: 0;
@@ -76,8 +77,7 @@ p.gray b{
     margin-left: 42px;
 }
 #headerImg img{
-    width: 100%;
-    
+    width: 30%;
 }
 .headerLogo{
     text-align: center;
@@ -114,8 +114,29 @@ h1.black{
 .textCenter{
     text-align: center;
 }
+#tJapa{
+    background-color: rgb(41, 42, 41);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px;
+}
+#tCurr{
+    background-color: rgb(41, 42, 41);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px;
+}
+#tVending{
+    background-color: rgb(41, 42, 41);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 300px;
+}
 a:hover.projects{
-    color: green;
+    color: rgb(4, 196, 4);
 }
 a.projects{
     font-family: Poppins;
@@ -124,7 +145,7 @@ a.projects{
     color: rgb(138, 138, 138);
 }
 a:hover.servics{
-    color: green;
+    color: rgb(4, 196, 4);
 }
 #services .textCenter h3{
     font-family: Poppins;
@@ -136,6 +157,12 @@ a:hover.servics{
 }
 #contactImg img{
     width: 100%;
+}
+.ctimg{
+    text-align: center;
+}
+#card{
+    padding-left: 30;
 }
 #contactForm{
     margin-left: 75px;
@@ -240,4 +267,230 @@ li {
 }
 a:hover.buttonCta{
     color: rgb(75, 224, 6);
+}
+#bann{
+    width: 100%;
+}
+#bann2{
+    width: 100%;
+}
+#bann3{
+    width: 100%;
+}
+.rodape h2{
+    text-align: center;
+}
+
+.btn-success {
+    background-color: green;
+    margin: 10px;
+}
+hr.solid {
+    border-top: 3px solid #78ea78;
+}
+
+@media (min-width: 400px){
+    .btn-success {
+        margin: 5px;
+    }
+    .header{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    #headerCta h1{
+        font-size: 25px;
+        text-align: center;
+    }
+    #headerCta{
+        font-size: 25px;
+        text-align: center;
+    }
+    #dev{
+        font-size: 15px;
+        line-height: 16px;
+        text-align: center;
+    }
+    #entre{
+        font-size: 30px;
+        line-height: 30px; 
+    }
+    #buttonLinkd{
+        background: green;
+        border-radius: 30px;
+        font-size: 20px;
+        line-height: 60px;
+        color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction:column;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+    .servics{
+        font-size: 15px;
+    }
+    #menu{
+        margin-top: 20px;
+    }
+    #headerImg{
+        text-align: center;
+    }
+    #headerImg img{
+        width: 60%;
+    }
+    #contactImg{
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    #tJapa{
+        width: 140px;
+    }
+    #tCurr{
+        width: 140px;
+    }
+    #tVending{
+        width: 140px;
+    }
+    #services{
+        display: flex;
+        flex-direction:row;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 1000px){
+    .btn-success {
+        margin: 5px;
+    }
+    .header{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #headerCta h1{
+        font-size: 35px;
+    }
+    #dev{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #entre{
+        font-size: 30px;
+        line-height: 30px; 
+    }
+    #buttonLinkd{
+        background: green;
+        border-radius: 30px;
+        font-size: 20px;
+        line-height: 60px;
+        color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction:column;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+    .servics{
+        font-size: 18px;
+    }
+    #menu{
+        margin-top: 40px;
+    }
+    #contactImg img{
+        width: 40%;
+    }
+    .ctimg img{
+        text-align: center;
+    }
+    #headerImg img{
+        width: 40%;
+    }
+    #tJapa{
+        width: 200px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    #tCurr{
+        width: 200px;
+        margin-right: 20px;
+    }
+    #tVending{
+        width: 200px;
+        margin-right: 20px;
+    }
+    #services{
+        display: flex;
+        flex-direction:row;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+}
+
+@media (min-width: 480px){
+    .btn-success {
+        margin: 5px;
+    }
+    .header{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #headerCta h1{
+        font-size: 35px;
+    }
+    #dev{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    #entre{
+        font-size: 30px;
+        line-height: 30px; 
+    }
+    #buttonLinkd{
+        background: green;
+        border-radius: 30px;
+        font-size: 20px;
+        line-height: 60px;
+        color: white;
+    }
+    .container{
+        display: flex;
+        flex-direction:column;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
+    .servics{
+        font-size: 18px;
+    }
+    #menu{
+        margin-top: 5px;
+    }
+    #contactImg img{
+        width: 40%;
+    }
+    #headerImg img{
+        width: 40%;
+    }
+    #tJapa{
+        width: 300px;
+        margin-right: 20px;
+        padding: 20px;
+    }
+    #tCurr{
+        width: 300px;
+        margin-right: 20px;
+    }
+    #tVending{
+        width: 300px;
+        margin-right: 20px;
+    }
+    #services{
+        display: flex;
+        flex-direction:row;
+        justify-self: center;
+        flex-wrap: wrap;
+    }
 }
